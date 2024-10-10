@@ -42,6 +42,7 @@ class ComposerStaticIniteb9a0fa6f6b53af4496b422004095824
         'QuadLayers\\WP_License_Client\\Api\\Rest\\Endpoints\\UserData\\Delete' => __DIR__ . '/../..' . '/src/Api/Rest/Endpoints/UserData/Delete.php',
         'QuadLayers\\WP_License_Client\\Api\\Rest\\Endpoints\\UserData\\Get' => __DIR__ . '/../..' . '/src/Api/Rest/Endpoints/UserData/Get.php',
         'QuadLayers\\WP_License_Client\\Api\\Rest\\RoutesLibrary' => __DIR__ . '/../..' . '/src/Api/Rest/RoutesLibrary.php',
+        'QuadLayers\\WP_License_Client\\Backend\\Cron\\Load' => __DIR__ . '/../..' . '/src/Backend/Cron/Load.php',
         'QuadLayers\\WP_License_Client\\Backend\\Menu\\Load' => __DIR__ . '/../..' . '/src/Backend/Menu/Load.php',
         'QuadLayers\\WP_License_Client\\Backend\\Notice\\Load' => __DIR__ . '/../..' . '/src/Backend/Notice/Load.php',
         'QuadLayers\\WP_License_Client\\Backend\\Page\\Load' => __DIR__ . '/../..' . '/src/Backend/Page/Load.php',

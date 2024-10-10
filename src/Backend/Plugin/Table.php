@@ -110,47 +110,47 @@ class Table {
 	 */
 	// public function add_update_notification( $plugin_data, $response ) {
 
-	// 	/**
-	// 	 * Check if the license is activated. If not, show a notice.
-	// 	 */
-	// 	if ( 'none' === $this->activation->status() ) {
-	// 		printf(
-	// 			'</p></div><span class="notice notice-error notice-alt" style="display:block; padding: 10px;"><b>%s</b> %s</span>',
-	// 			esc_html__( 'Activate your license.', 'wp-license-client' ),
-	// 			sprintf(
-	// 				esc_html__( 'Please visit %1$s to activate the license or %2$s in our website.', 'wp-license-client' ),
-	// 				sprintf(
-	// 					'<a href="%s" target="_blank">%s</a>',
-	// 					esc_url( $this->plugin->get_menu_license_url() ),
-	// 					esc_html__( 'settings', 'wp-license-client' )
-	// 				),
-	// 				sprintf(
-	// 					'<a href="%s" target="_blank">%s</a>',
-	// 					esc_url( $this->plugin->get_url() ),
-	// 					esc_html__( 'purchase', 'wp-license-client' )
-	// 				)
-	// 			)
-	// 		);
-	// 		return;
-	// 	}
+	// **
+	// * Check if the license is activated. If not, show a notice.
+	// */
+	// if ( 'none' === $this->activation->status() ) {
+	// printf(
+	// '</p></div><span class="notice notice-error notice-alt" style="display:block; padding: 10px;"><b>%s</b> %s</span>',
+	// esc_html__( 'Activate your license.', 'wp-license-client' ),
+	// sprintf(
+	// esc_html__( 'Please visit %1$s to activate the license or %2$s in our website.', 'wp-license-client' ),
+	// sprintf(
+	// '<a href="%s" target="_blank">%s</a>',
+	// esc_url( $this->plugin->get_menu_license_url() ),
+	// esc_html__( 'settings', 'wp-license-client' )
+	// ),
+	// sprintf(
+	// '<a href="%s" target="_blank">%s</a>',
+	// esc_url( $this->plugin->get_url() ),
+	// esc_html__( 'purchase', 'wp-license-client' )
+	// )
+	// )
+	// );
+	// return;
+	// }
 
-	// 	/**
-	// 	 * Check if the download link is valid. If not, show a notice.
-	// 	 */
-	// 	if ( empty( $response->download_link ) || filter_var( $response->download_link, FILTER_VALIDATE_URL ) === false ) {
-	// 		printf(
-	// 			'</p></div><span class="notice notice-error notice-alt" style="display:block; padding: 10px;"><b>%s</b> %s</span>',
-	// 			esc_html__( 'Automatic updates are disabled.', 'wp-license-client' ),
-	// 			sprintf(
-	// 				esc_html__( 'Please contact the plugin author %1$s.', 'wp-license-client' ),
-	// 				sprintf(
-	// 					'<a href="%s" target="_blank">%s</a>',
-	// 					esc_url( $this->plugin->get_url() ),
-	// 					esc_html__( 'here', 'wp-license-client' )
-	// 				)
-	// 			)
-	// 		);
-	// 	}
+	// **
+	// * Check if the download link is valid. If not, show a notice.
+	// */
+	// if ( empty( $response->download_link ) || filter_var( $response->download_link, FILTER_VALIDATE_URL ) === false ) {
+	// printf(
+	// '</p></div><span class="notice notice-error notice-alt" style="display:block; padding: 10px;"><b>%s</b> %s</span>',
+	// esc_html__( 'Automatic updates are disabled.', 'wp-license-client' ),
+	// sprintf(
+	// esc_html__( 'Please contact the plugin author %1$s.', 'wp-license-client' ),
+	// sprintf(
+	// '<a href="%s" target="_blank">%s</a>',
+	// esc_url( $this->plugin->get_url() ),
+	// esc_html__( 'here', 'wp-license-client' )
+	// )
+	// )
+	// );
+	// }
 	// }
 
 	/**
